@@ -74,11 +74,12 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> 'mysql:host=remotemysql.com;dbname=viXX5p2YS8',
-	'hostname' => 'localhost',
+	'dsn'	=> 'mysql:https://remotemysql.com;dbname=viXX5p2YS8',
+	'hostname' => 'remotemysql.com',
 	'username' => 'viXX5p2YS8',
-	'password' => 'ynn0CiWHH2',
+	'password' => 'BXHKsl9pI3',
 	'database' => 'viXX5p2YS8',
+	'port'     => '3306',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
